@@ -1,0 +1,14 @@
+target/
+**/target/
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+mobile/ios/build/
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/.expo/

@@ -1,0 +1,9 @@
+{
+  "name": "SillyMicNative",
+  "displayName": "SillyMic Mobile",
+  "extra": {
+    "eas": {
+      "projectId": "ae2e95cd-d750-4525-9ea8-fd99e8245e92"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<!-- Add these keys inside ios/<YourApp>/Info.plist -->
+<key>NSLocalNetworkUsageDescription</key>
+<string>SillyMic uses the local network to connect to your PC audio bridge.</string>
+<key>NSBonjourServices</key>
+<array>
+  <string>_http._tcp</string>
+  <string>_ws._tcp</string>
+</array>
+<key>UIBackgroundModes</key>
+<array>
+  <string>audio</string>
+</array>
+

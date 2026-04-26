@@ -1,0 +1,23 @@
+[package]
+name = "sillymic-host"
+version = "0.1.0"
+edition = "2021"
+description = "PC microphone to iPhone low-latency bridge (LAN only)"
+
+[dependencies]
+anyhow = "1.0"
+axum = { version = "0.7", features = ["ws", "json"] }
+bytes = "1.6"
+clap = { version = "4.5", features = ["derive"] }
+cpal = "0.15"
+futures = "0.3"
+local-ip-address = "0.6"
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.38", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+uuid = { version = "1.10", features = ["v4", "serde"] }
+webrtc = "0.11"
+audiopus = "0.2"
